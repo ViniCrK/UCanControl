@@ -3,8 +3,8 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     justifyContent: "center",
-    alignItems: "flex-start",
-    backgroundColor: "#212529",
+    alignItems: "center",
+    backgroundColor: "#252525",
     width: "90%",
     height: "auto",
     padding: 10,
@@ -23,23 +23,30 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
   },
 
+  row: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingLeft: 20,
+    marginTop: 5,
+  },
+
   labelText: {
     color: "#DEE2DB",
-    paddingLeft: 20,
     fontSize: 22,
+    paddingLeft: 20,
   },
 
   distanceBox: {
     color: "#fff",
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: "bold",
-    width: "22%",
-    padding: 10,
-    marginTop: 5,
-    marginLeft: 30,
-    borderRadius: 4,
-    borderStyle: "solid",
     textAlign: "center",
+    padding: 10,
+    marginLeft: 10,
+    borderRadius: 5,
+    borderStyle: "solid",
+    borderColor: "#fff",
+    borderWidth: 1,
   },
 
   distanceBoxSafe: {
@@ -50,6 +57,15 @@ const styles = StyleSheet.create({
   },
   distanceBoxDanger: {
     backgroundColor: "red",
+  },
+
+  alertText: {
+    color: "#fff",
+    fontSize: 20,
+    alignSelf: "center",
+    padding: 8,
+    marginTop: 10,
+    borderRadius: 5,
   },
 });
 

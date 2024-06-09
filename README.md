@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# UCanControl
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+UCanControl é um sistema de monitoramento de nível de resíduos em lixeiras utilizando sensores inteligentes. Esses sensores serão instalados em lixeiras selecionadas para monitorar continuamente os níveis de resíduos e transmitir os dados em tempo real para uma central de controle. Com base nesses dados, a frequência e as rotas de coleta de lixo serão otimizadas, resultando na redução de custos operacionais e impactos ambientais. O objetivo é criar um sistema mais eficiente e sustentável, minimizando o transbordamento de lixeiras e contribuindo para um ambiente mais limpo. A análise de dados históricos coletados também permitirá um melhor planejamento na gestão de resíduos a longo prazo.
 
-## Get started
+## 🚀 Começando
 
-1. Install dependencies
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-   ```bash
-   npm install
-   ```
+### 📋 Pré-requisitos
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Para começar, clone o repositório, utilizando o git, para o seu computador local e mude para um diretório apropriado.
 
 ```bash
-npm run reset-project
+$ git clone https://github.com/ViniCrK/UCanControl.git
+$ cd UCanControl
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 🔧 Instalação
 
-## Learn more
+UCanControl pode ser instalado utilizando npm. Instale as dependências:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install firebase
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Para subir a aplicação:
 
-## Join the community
+```bash
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+## 🛠️ Construído com
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [React Native](https://reactnative.dev/) - Framework mobile utilizado
+- [Expo](https://docs.expo.dev/) - Framework auxiliar utilizado
+- [npm](https://www.npmjs.com/) - Gerente de Dependência
+- [Firebase Realtime Database](https://firebase.google.com/?hl=pt-br) - Banco de Dados
+
+## 📌 Versão
+
+Nós usamos [Git](https://www.git-scm.com/) para controle de versão.
+
+## ✒️ Autores
+
+- **Vinícius Cerqueira** - _Desenvolvimento FrontEnd_ - [ViniCrK](https://github.com/ViniCrK)
+- **Kleber Filho** - _Desenvolvimento BackEnd_ - [kleberfilho](https://github.com/)
+- **Pedro Henrique** - _Documentação_ - [pedrohenrique](https://github.com/)
+
+Você também pode ver a lista de todos os [colaboradores](https://github.com/ViniCrK/UCanControl/graphs/contributors) que participaram deste projeto.
+
+## 🎁 Expressões de gratidão
+
+- Conte a outras pessoas sobre este projeto 📢;
+- Convide alguém da equipe para uma cerveja 🍺;
+- Um agradecimento a professora Tacyana e ao professor Artur pela confiança no projeto;

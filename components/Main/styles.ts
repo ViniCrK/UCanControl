@@ -4,10 +4,12 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#252525",
+    backgroundColor: "#5C4E4E",
     width: "90%",
     height: "auto",
-    padding: 10,
+    paddingTop: 10,
+    paddingBottom: 15,
+    paddingHorizontal: 10,
     borderRadius: 10,
   },
 
@@ -18,7 +20,7 @@ const styles = StyleSheet.create({
   },
 
   subtitle: {
-    color: "#fff",
+    color: "#A47551",
     fontSize: 28,
     paddingLeft: 10,
   },
@@ -31,7 +33,7 @@ const styles = StyleSheet.create({
   },
 
   labelText: {
-    color: "#DEE2DB",
+    color: "#D1D0D0",
     fontSize: 22,
     paddingLeft: 20,
   },

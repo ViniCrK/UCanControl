@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   boxTitle: {
-    backgroundColor: "#3e1c00",
+    backgroundColor: "#523A28",
     alignItems: "center",
     justifyContent: "center",
     padding: 30,
